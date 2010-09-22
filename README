@@ -1,0 +1,5 @@
+Move contents of client/include to /opt/SUNWsamfs/include
+
+Navigate to client/src/client and "make".
+
+libsamrpc.a should be generated in client/src/client
