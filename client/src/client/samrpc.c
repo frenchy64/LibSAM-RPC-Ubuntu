@@ -111,7 +111,7 @@ char *rpchost)
 	}
 
 	clnt = clnt_create(hostname, (u_long)rpce->r_number, SAMVERS,
-			"netpath");
+			"tcp");
 	if (clnt == (CLIENT *)NULL) {
 		clnt_pcreateerror(hostname);
 		return(-1);
