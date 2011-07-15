@@ -1,4 +1,3 @@
-
 1. Install LibSAM library
 
 Download LibSAM Library: http://opensolaris.org/os/project/samqfs/files/libsam-LGPL.tar
@@ -13,3 +12,13 @@ Move contents of client/include to /opt/SUNWsamfs/include
 Navigate to client/src/client and "make".
 
 libsamrpc.a should be generated in client/src/client
+
+
+From documentation: http://wikis.sun.com/download/attachments/190333569/intro_libsam.3.txt
+
+Both libsam and libsamrpc are released in shared object
+     (.so) and archive (.a) format for Solaris platforms.
+     libsam.so and libsam.a are installed in /opt/SUNWsamfs/lib.
+     libsamrpc.so and libsamrpc.a are installed in
+     /opt/SUNWsamfs/client/lib, with symbolic links to them in
+     /opt/SUNWsamfs/lib.
