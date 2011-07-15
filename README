@@ -1,3 +1,13 @@
+
+1. Install LibSAM library
+
+Download LibSAM Library: http://opensolaris.org/os/project/samqfs/files/libsam-LGPL.tar
+
+Extract library and copy the directory include/sam to /opt/SUNWsamfs/include
+
+
+2. Build LibSAMRPC library (this library)
+
 Move contents of client/include to /opt/SUNWsamfs/include
 
 Navigate to client/src/client and "make".
